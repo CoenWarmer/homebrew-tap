@@ -1,9 +1,9 @@
 # Rendered by .github/workflows/homebrew.yml into CoenWarmer/homebrew-tap.
 cask "review-pinger" do
-  version "0.1.2"
-  sha256 "7d3781a612bb6bc6d39784fefb493c54dd9e667f71520fcde36cb9a7137d4d6b"
+  version "0.2.0"
+  sha256 "f028b55df33be1fdcf403c8919e6cf7021639459dd03b907a3f91732d496ce03"
 
-  url "https://github.com/CoenWarmer/github-review-pinger/releases/download/v0.1.2/Review.Pinger_0.1.2_universal.dmg"
+  url "https://github.com/CoenWarmer/github-review-pinger/releases/download/v0.2.0/Review.Pinger_0.2.0_universal.dmg"
   name "Review Pinger"
   desc "Menu bar app showing your open GitHub pull requests and their review status"
   homepage "https://github.com/CoenWarmer/github-review-pinger"
