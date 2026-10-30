@@ -1,12 +1,15 @@
 # Rendered by .github/workflows/homebrew.yml into CoenWarmer/homebrew-tap.
 cask "review-pinger" do
-  version "0.6.1"
-  sha256 "6bd6ab1d46ee1e7a3c8d57eb9fb7554b224105d7082f4d76bc2467d1d765a514"
+  version "0.6.2"
+  sha256 "3f34590466be038dab88810418a8c30c812c16df6e632ddd7992e62d8de08fd2"
 
-  url "https://github.com/CoenWarmer/github-review-pinger/releases/download/v0.6.1/Review.Pinger_0.6.1_universal.dmg"
+  url "https://github.com/CoenWarmer/github-review-pinger/releases/download/v0.6.2/Review.Pinger_0.6.2_universal.dmg"
   name "Review Pinger"
   desc "Menu bar app showing your open GitHub pull requests and their review status"
   homepage "https://github.com/CoenWarmer/github-review-pinger"
+
+  # The app updates itself; brew shouldn't fight it.
+  auto_updates true
 
   app "Review Pinger.app"
 
